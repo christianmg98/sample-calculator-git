@@ -12,6 +12,7 @@ import static org.junit.Assert.*;
 
 @RunWith(value = Parameterized.class)
 public class CalculatorParametersTest {
+    //Clase CalculatorParametersTest Creado por el Grupo 7 - Morán - Pallo
     private int a, b, expected;
 
     @Parameterized.Parameters

@@ -5,6 +5,7 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 public class CalculatorTest {
+    //Clase CalculadoraTest creada por el GRUPO 6 - Morán - Pallo
     Calculator c;
 
     @BeforeClass
@@ -40,6 +41,12 @@ public class CalculatorTest {
     public void given_two_integers_when_timeout_then_exception(){
         System.out.println("Test 4");
         c.timeout(100);
+    }
+
+    @Test
+    public void given_two_integers_when_multiplication_then_ok(){
+        System.out.println("Test 5");
+        assertEquals(6,c.multiplication(3,2));
     }
 
     @After
